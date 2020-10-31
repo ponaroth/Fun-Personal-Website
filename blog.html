@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ponaroth's Website | blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+  <link href="carousel.css" rel="stylesheet">
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>
+          <font color="#e8491d">Ponaroth Eab</font> (Dean)
+        </h1>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <section id="newsletter">
+    <div class="container">
+      <h2>Random Blogs</h2>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <div id="blogColumn"></div>
+
+        <div id="exampleBlogs">
+          <h2 class='blogBG'>Smaller Cars Are More Fun Than Bigger Cars</h2>
+          <p>I have test drove serveral sport cars including the S550 Ford Mustang GT, the C7 Corvette Grand Sport, the Porshe 718 Cayman S, the Mercedez SLC 300, and the BMW M3. It was my dream to own a C7 Corvette some day. However, after driven the C7 Corvette and Porsche Cayman S back to back, I gained a new perspective. The C7 Corvette, which was the faster car, felt numb. I could not feel the enjoyment of acceleration while pushing it. The C7 was very fast. In fact, it could go past the speed limit in a blink of an eye. But there is no point if it could not put a smile on your face. The Cayman on the other hand put a smile on my face every time I floored it. It feels like a personal roller coaster.</p>
+          <hr>
+
+          <h2 class='blogBG'>Why Yu-Gi-Oh GX Is a Better Series than Harry Potter</h2>
+          <p>GX begins with the lead character, Jaden Yuki, obtaining a "Winged Kuriboh" from Yugi Muto, the renowned Duel Monsters champion. Yu-Gi-Oh! GX follows the exploits of Jaden and his companions as he attends Duel Academy (Duel Academia). The series is set 10 years after the original series. Jaden is a fun, couragous and skillfull character who could haddle anything enemies throw at him, while Harry Potter is more of a coward and weak</p>
+          <hr>
+
+        </div>
+
+      </article>
+
+      <aside id="sidebar">
+        <div class="dark">
+          <h3>Write Blog</h3>
+          <div>
+            <input type="text" id="myInput" placeholder="Title" rows="10" cols="70%" />
+            <br><br>
+            <textarea id="blogBody" placeholder="Blog body" rows="10" cols="35%"></textarea>
+            <br>
+            <button class="button_1" id="add_bt" onclick="addBlogToBlogColumn()">Submit</button>
+
+          </div>
+        </div>
+      </aside>
+
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Ponaroth Eab, copyright &copy; 2020</p>
+  </footer>
+
+  <script type="text/javascript" src="blog.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+
+  <script>
+    window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+  </script>
+
+  <script src="./dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
